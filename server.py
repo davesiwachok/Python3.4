@@ -13,6 +13,6 @@ today = datetime.date.today()
 print (today.strftime("%m/%d/%Y"))  
 
 httpd.serve_forever()
+# Starts server
 # http://127.0.0.1:8082
-
 # Uses index.html file in the directory that this file is in.
